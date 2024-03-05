@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Animation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+        integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <img class="logo" src="./img/logo.png" alt="logo">
+            <ul>
+                <li><a href="">Log In</a></li>
+                <li><a href="">Sign Out</a></li>
+                <li class="search"><a href=""><i class="ri-search-line"></i></a></li>
+                <li class="hamburger">
+                    <a href="#"><i class="ri-menu-5-line"></i> </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="vignette"></div>
+        <img src="img/background.png" data-distance="-200" data-speedz ="0"  data-speedx="0.3" data-speedy="0.38" alt="img" class="parallax bg-img">
+        
+        
+        <div data-speedx="0.07" data-distance="0" data-speedy="0.07" data-speedz ="0" class="text parallax">
+            <h2>Nepal</h2>
+            <h1>Sagarmatha</h1>
+        </div>
+      
+
+    </main>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
